@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, Response
 from sentence_transformers import SentenceTransformer
 import faiss
-import numpy as np
 from Appendix import TheAppendix
 app = Flask(__name__)
 
